@@ -14,7 +14,7 @@ function activateGallery() {
       let newImageSrc   = thumbnail.dataset.largeVersion;
       let largeVersion  = new Image();
       let newImageAlt   = thumbnail.alt;
-      largeVersion.src  = //fill in//
+      largeVersion.src  = newImageSrc;
 
 
          thumbnail.addEventListener("click", function() {
